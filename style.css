@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background: #fff;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10%;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+.navbar .logo {
+  display: flex;
+  align-items: center;
+}
+.navbar .logo img {
+  width: 40px;
+  margin-right: 8px;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 90px;
+  
+}
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+.navbar a:hover {
+  color: #ff4b2b;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 10%;
+  background: #000000;
+  width: 1440px;
+  width: 100%;
+}
+.hero-text {
+  max-width: 50%;
+}
+.hero-text h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: white;
+  
+
+}
+.btn {
+  display: inline-block;
+  background: #ff4b2b;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #e63b1f;
+}
+.hero-img img {
+  max-width: 300px;
+}
+
+/* Services */
+.services {
+  padding: 60px 10%;
+  background: #fff;
+}
+.services h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.service {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.service img {
+  width: 120px;
+  border-radius: 8px;
+  margin-right: 20px;
+
+}
+
+/* Contact */
+.contact {
+  padding: 60px 10%;
+  background: #2acfcf;
+  color: #fff;
+  text-align: center;
+}
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 30px;
+  
+}
+.map input {
+width: 331px;
+height: 531px;
+  border-radius: 8px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  width: 100%;
+  
+  
+  
+}
+.contact-form input, 
+.contact-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.contact-form input {
+  outline: none;
+}
+.contact-form button {
+  background: yellowgreen;
+  color: #fff;
+  cursor: pointer;
+}
+.contact-form button:hover {
+  background: #e63b1f;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10%;
+  background: #111;
+  color: #fff;
+}
+.footer nav a {
+  margin-left: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+.footer nav a:hover {
+  text-decoration: underline;
+  color: purple;
+}
+
+.map iframe {
+height: 531px;
+height: 331px;
+
+}
+
